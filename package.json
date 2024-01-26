@@ -7,7 +7,7 @@
   "description": "iwarranty search cli",
   "main": "index.js",
   "scripts": {
-    "link-cli": "yarn --global unlink && chmod +x ./dist/index.js && yarn --global link",
+    "link-cli": "(yarn --global unlink iwarranty-cli || true) && chmod +x ./dist/index.js && yarn --global link iwarranty-cli",
     "dev": "tsc -w"
   },
   "keywords": [],
