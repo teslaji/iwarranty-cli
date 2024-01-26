@@ -1,0 +1,22 @@
+{
+    "display": "Node LTS",
+    "_version": "20.11.0",
+    "compilerOptions": {
+        "lib": [
+            "ES2023"
+        ],
+        "outDir": "dist",
+        "module": "node16",
+        "target": "es2022",
+        "strict": true,
+        "noUncheckedIndexedAccess": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "Node16"
+    },
+    "include": [
+        "src",
+        "index.js"
+    ],
+}
