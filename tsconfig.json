@@ -6,17 +6,18 @@
             "ES2023"
         ],
         "outDir": "dist",
-        "module": "node16",
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
         "target": "es2022",
         "strict": true,
         "noUncheckedIndexedAccess": true,
         "esModuleInterop": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
-        "moduleResolution": "Node16"
+        "declaration": true,
     },
     "include": [
-        "src",
-        "index.js"
+        "src/**/*.ts",
+        "index.ts"
     ],
 }
