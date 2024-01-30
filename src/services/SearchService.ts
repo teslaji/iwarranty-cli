@@ -37,4 +37,3 @@ export class SearchService {
         }
     }
 }
-// Export the class for ES modules
